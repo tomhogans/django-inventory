@@ -1,0 +1,236 @@
+- fields: {app_label: admin, model: logentry, name: log entry}
+  model: contenttypes.contenttype
+  pk: 1
+- fields: {app_label: auth, model: permission, name: permission}
+  model: contenttypes.contenttype
+  pk: 2
+- fields: {app_label: auth, model: group, name: group}
+  model: contenttypes.contenttype
+  pk: 3
+- fields: {app_label: auth, model: user, name: user}
+  model: contenttypes.contenttype
+  pk: 4
+- fields: {app_label: contenttypes, model: contenttype, name: content type}
+  model: contenttypes.contenttype
+  pk: 5
+- fields: {app_label: sessions, model: session, name: session}
+  model: contenttypes.contenttype
+  pk: 6
+- fields: {app_label: inventory, model: product, name: product}
+  model: contenttypes.contenttype
+  pk: 7
+- fields: {app_label: inventory, model: category, name: category}
+  model: contenttypes.contenttype
+  pk: 8
+- fields: {base_price: 0.5, category: 1, name: Spoon, quantity: 4}
+  model: inventory.product
+  pk: 1
+- fields: {base_price: 0.5, category: 1, name: Knife, quantity: 5}
+  model: inventory.product
+  pk: 2
+- fields: {base_price: 0.18, category: 1, name: Fork, quantity: 8}
+  model: inventory.product
+  pk: 3
+- fields: {base_price: 0.8, category: 1, name: Spork, quantity: 15}
+  model: inventory.product
+  pk: 4
+- fields: {base_price: 0.05, category: 3, name: Nail, quantity: 40}
+  model: inventory.product
+  pk: 5
+- fields: {base_price: 0.08, category: 3, name: Screw, quantity: 45}
+  model: inventory.product
+  pk: 6
+- fields: {base_price: 6, category: 3, name: Chain, quantity: 5}
+  model: inventory.product
+  pk: 7
+- fields: {base_price: 2.5, category: 2, name: Rubber duckey, quantity: 7}
+  model: inventory.product
+  pk: 8
+- fields: {base_price: 4.25, category: 2, name: Stamp, quantity: 9}
+  model: inventory.product
+  pk: 9
+- fields: {base_price: 55, category: 2, name: Tire, quantity: 4}
+  model: inventory.product
+  pk: 10
+- fields: {base_price: 559, category: 4, name: iPhone, quantity: 2}
+  model: inventory.product
+  pk: 11
+- fields: {base_price: 750, category: 4, name: iPad, quantity: 1}
+  model: inventory.product
+  pk: 12
+- fields: {base_price: 3.5, category: 4, name: Stapler, quantity: 0}
+  model: inventory.product
+  pk: 13
+- fields: {name: Plastics}
+  model: inventory.category
+  pk: 1
+- fields: {name: Rubbers}
+  model: inventory.category
+  pk: 2
+- fields: {name: Metals}
+  model: inventory.category
+  pk: 3
+- fields: {name: Others}
+  model: inventory.category
+  pk: 4
+- fields: {codename: add_logentry, content_type: 1, name: Can add log entry}
+  model: auth.permission
+  pk: 1
+- fields: {codename: change_logentry, content_type: 1, name: Can change log entry}
+  model: auth.permission
+  pk: 2
+- fields: {codename: delete_logentry, content_type: 1, name: Can delete log entry}
+  model: auth.permission
+  pk: 3
+- fields: {codename: add_permission, content_type: 2, name: Can add permission}
+  model: auth.permission
+  pk: 4
+- fields: {codename: change_permission, content_type: 2, name: Can change permission}
+  model: auth.permission
+  pk: 5
+- fields: {codename: delete_permission, content_type: 2, name: Can delete permission}
+  model: auth.permission
+  pk: 6
+- fields: {codename: add_group, content_type: 3, name: Can add group}
+  model: auth.permission
+  pk: 7
+- fields: {codename: change_group, content_type: 3, name: Can change group}
+  model: auth.permission
+  pk: 8
+- fields: {codename: delete_group, content_type: 3, name: Can delete group}
+  model: auth.permission
+  pk: 9
+- fields: {codename: add_user, content_type: 4, name: Can add user}
+  model: auth.permission
+  pk: 10
+- fields: {codename: change_user, content_type: 4, name: Can change user}
+  model: auth.permission
+  pk: 11
+- fields: {codename: delete_user, content_type: 4, name: Can delete user}
+  model: auth.permission
+  pk: 12
+- fields: {codename: add_contenttype, content_type: 5, name: Can add content type}
+  model: auth.permission
+  pk: 13
+- fields: {codename: change_contenttype, content_type: 5, name: Can change content
+      type}
+  model: auth.permission
+  pk: 14
+- fields: {codename: delete_contenttype, content_type: 5, name: Can delete content
+      type}
+  model: auth.permission
+  pk: 15
+- fields: {codename: add_session, content_type: 6, name: Can add session}
+  model: auth.permission
+  pk: 16
+- fields: {codename: change_session, content_type: 6, name: Can change session}
+  model: auth.permission
+  pk: 17
+- fields: {codename: delete_session, content_type: 6, name: Can delete session}
+  model: auth.permission
+  pk: 18
+- fields: {codename: add_product, content_type: 7, name: Can add product}
+  model: auth.permission
+  pk: 19
+- fields: {codename: change_product, content_type: 7, name: Can change product}
+  model: auth.permission
+  pk: 20
+- fields: {codename: delete_product, content_type: 7, name: Can delete product}
+  model: auth.permission
+  pk: 21
+- fields: {codename: add_category, content_type: 8, name: Can add category}
+  model: auth.permission
+  pk: 22
+- fields: {codename: change_category, content_type: 8, name: Can change category}
+  model: auth.permission
+  pk: 23
+- fields: {codename: delete_category, content_type: 8, name: Can delete category}
+  model: auth.permission
+  pk: 24
+- fields:
+    date_joined: 2014-01-23 06:38:55.975576+00:00
+    email: tomhsx@gmail.com
+    first_name: ''
+    groups: []
+    is_active: true
+    is_staff: true
+    is_superuser: true
+    last_login: 2014-01-23 06:39:00.971136+00:00
+    last_name: ''
+    password: pbkdf2_sha256$12000$1Bx3Jigw7PTE$kxMuxrqOuF0GGAtxyGLSwfV0Y0qO8k+XSGrLZF8xSjk=
+    user_permissions: []
+    username: tom
+  model: auth.user
+  pk: 1
+- fields: {action_flag: 1, action_time: ! '2014-01-23 06:48:48.463270+00:00', change_message: '',
+    content_type: 8, object_id: '1', object_repr: Category object, user: 1}
+  model: admin.logentry
+  pk: 1
+- fields: {action_flag: 1, action_time: ! '2014-01-23 06:48:51.334391+00:00', change_message: '',
+    content_type: 8, object_id: '2', object_repr: Category object, user: 1}
+  model: admin.logentry
+  pk: 2
+- fields: {action_flag: 1, action_time: ! '2014-01-23 06:48:53.706137+00:00', change_message: '',
+    content_type: 8, object_id: '3', object_repr: Category object, user: 1}
+  model: admin.logentry
+  pk: 3
+- fields: {action_flag: 1, action_time: ! '2014-01-23 06:48:56.730760+00:00', change_message: '',
+    content_type: 8, object_id: '4', object_repr: Category object, user: 1}
+  model: admin.logentry
+  pk: 4
+- fields: {action_flag: 1, action_time: ! '2014-01-23 06:51:25.869627+00:00', change_message: '',
+    content_type: 7, object_id: '1', object_repr: Spoon, user: 1}
+  model: admin.logentry
+  pk: 5
+- fields: {action_flag: 2, action_time: ! '2014-01-23 06:55:09.361807+00:00', change_message: No
+      fields changed., content_type: 7, object_id: '1', object_repr: Spoon, user: 1}
+  model: admin.logentry
+  pk: 6
+- fields: {action_flag: 1, action_time: ! '2014-01-23 06:55:23.158038+00:00', change_message: '',
+    content_type: 7, object_id: '2', object_repr: Knife, user: 1}
+  model: admin.logentry
+  pk: 7
+- fields: {action_flag: 1, action_time: ! '2014-01-23 06:55:36.879732+00:00', change_message: '',
+    content_type: 7, object_id: '3', object_repr: Fork, user: 1}
+  model: admin.logentry
+  pk: 8
+- fields: {action_flag: 1, action_time: ! '2014-01-23 06:56:05.783448+00:00', change_message: '',
+    content_type: 7, object_id: '4', object_repr: Spork, user: 1}
+  model: admin.logentry
+  pk: 9
+- fields: {action_flag: 1, action_time: ! '2014-01-23 07:13:43.363869+00:00', change_message: '',
+    content_type: 7, object_id: '5', object_repr: Nail, user: 1}
+  model: admin.logentry
+  pk: 10
+- fields: {action_flag: 1, action_time: ! '2014-01-23 07:13:56.209584+00:00', change_message: '',
+    content_type: 7, object_id: '6', object_repr: Screw, user: 1}
+  model: admin.logentry
+  pk: 11
+- fields: {action_flag: 1, action_time: ! '2014-01-23 07:14:26.204574+00:00', change_message: '',
+    content_type: 7, object_id: '7', object_repr: Chain, user: 1}
+  model: admin.logentry
+  pk: 12
+- fields: {action_flag: 1, action_time: ! '2014-01-23 07:14:39.436830+00:00', change_message: '',
+    content_type: 7, object_id: '8', object_repr: Rubber duckey, user: 1}
+  model: admin.logentry
+  pk: 13
+- fields: {action_flag: 1, action_time: ! '2014-01-23 07:15:28.561954+00:00', change_message: '',
+    content_type: 7, object_id: '9', object_repr: Stamp, user: 1}
+  model: admin.logentry
+  pk: 14
+- fields: {action_flag: 1, action_time: ! '2014-01-23 07:15:46.238627+00:00', change_message: '',
+    content_type: 7, object_id: '10', object_repr: Tire, user: 1}
+  model: admin.logentry
+  pk: 15
+- fields: {action_flag: 1, action_time: ! '2014-01-23 07:16:06.897534+00:00', change_message: '',
+    content_type: 7, object_id: '11', object_repr: iPhone, user: 1}
+  model: admin.logentry
+  pk: 16
+- fields: {action_flag: 1, action_time: ! '2014-01-23 07:16:18.663883+00:00', change_message: '',
+    content_type: 7, object_id: '12', object_repr: iPad, user: 1}
+  model: admin.logentry
+  pk: 17
+- fields: {action_flag: 1, action_time: ! '2014-01-23 07:16:46.236985+00:00', change_message: '',
+    content_type: 7, object_id: '13', object_repr: Stapler, user: 1}
+  model: admin.logentry
+  pk: 18
